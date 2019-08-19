@@ -71,7 +71,6 @@
              --url http://127.0.0.1:9000/api/test/ \
              --header 'Accept: */*' \
              --header 'Accept-Encoding: gzip, deflate' \
-             --header 'Authorization: Bearer 1fb7b88e57bc94e6945ec71817c2abae167feb82' \
              --header 'Cache-Control: no-cache' \
              --header 'Connection: keep-alive' \
              --header 'Cookie: sessionid=sfgqy7ej3fkuz8bunpft6jdl3akqga5l; csrftoken=t2ava3XRbP2WjtR6mvziTfj9nvF3MBCHZ6Shwx3lW8EYYVCpwBx2vN2bGFEeZ6C4; messages="9f6261956dfc60f13f5b806b41f9be22c0103068$[[\"__json_message\"\0540\05425\054\"Successfully signed in as test.\"]\054[\"__json_message\"\0540\05425\054\"Successfully signed in as test.\"]\054[\"__json_message\"\0540\05425\054\"Successfully signed in as test.\"]\054[\"__json_message\"\0540\05425\054\"Successfully signed in as test.\"]]"' \
@@ -79,6 +78,9 @@
              --header 'Postman-Token: 17937ade-9e21-495b-bf2f-ad6ee2a6b21b,feca3558-8107-4dd5-9f4c-2a7ddd3c813c' \
              --header 'User-Agent: PostmanRuntime/7.15.2' \
              --header 'cache-control: no-cache'
+        
+        
+        ** curl -X GET http://127.0.0.1:9000/api/test/ -H 'Authorization: Token 1fb7b88e57bc94e6945ec71817c2abae167feb82' **
         
         Response:
             {
