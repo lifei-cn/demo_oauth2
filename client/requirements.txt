@@ -2,5 +2,5 @@ django>=2,<2.1
 django-allauth==0.36.0
 django-cors-middleware==1.4.0
 django-rest-auth==0.9.5
-djangorestframework==3.10.2
+djangorestframework==3.11.2
 
